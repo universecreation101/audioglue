@@ -1,0 +1,215 @@
+body {
+    background: url(../images/maparea_background.png), url(../images/maparea_overlay.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    overflow: hidden;
+}
+    
+p {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+#menu-holder {
+	width: 100%;
+	height: 210px;
+	float: left;
+}
+
+#navmenu {
+	float: left;
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+}
+
+#navlist {
+	float: left;
+	width: auto;
+	height: auto;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navlist li {
+	display: inline;
+	padding: 2px;
+	margin: 0px;
+	color: #f16523;
+}
+
+#navlist a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #f16523;
+	letter-spacing: 1px;
+}
+
+#navlist a:hover {
+	color: #707070;
+}    
+
+#episodes {
+/*    display: none; */
+}
+
+#nodes {
+    display: none;
+}
+
+.show-episodes {
+	display: inline-block;
+	width: 92px;
+	height: 18px;
+	background: url(../images/navicon-episodes-default.png) no-repeat;
+}
+
+.show-episodes:hover {
+	background: url(../images/navicon-episodes-active.png) no-repeat;
+}
+
+.show-faq {
+	display: inline-block;
+	width: 62px;
+	height: 18px;
+	background: url(../images/navicon-help-default.png) no-repeat;
+}
+
+.show-faq:hover {
+	background: url(../images/navicon-help-active.png) no-repeat;
+}
+
+.show-credits {
+	display: inline-block;
+	width: 78px;
+	height: 18px;
+	background: url(../images/navicon-credits-default.png) no-repeat;
+}
+
+.show-credits:hover {
+	background: url(../images/navicon-credits-active.png) no-repeat;
+}
+
+#nodes div {
+	display: inline-block;
+}
+
+.node {
+	cursor: pointer;
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-full-discovered-default.png) no-repeat;
+}
+
+.node:hover {
+	background: url(../images/node-full-discovered-hover.png) no-repeat;
+}
+
+.node-active {
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-full-discovered-active.png) no-repeat;
+}
+
+.node-undiscovered {
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-full-undiscovered-default.png) no-repeat;
+}
+
+.secondary-node {
+	cursor: pointer;
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-half-discovered-default.png) no-repeat;
+}
+
+.secondary-node:hover {
+	background: url(../images/node-half-discovered-hover.png) no-repeat;
+}
+
+.secondary-node-active {
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-half-discovered-active.png) no-repeat;
+}
+
+.secondary-node-undiscovered {
+	width: 29px;
+	height: 43px;
+	background: url(../images/node-half-undiscovered-default.png) no-repeat;
+}
+
+.controls {
+    cursor: pointer;
+    height: 30px;
+    left: 167px;
+    float: right;
+    top: 48px;
+    width: 208px;
+}
+.controls .play, .controls .pause, .controls .rew, .controls .fwd, .controls .reset {
+    float: right;
+    height: 100%;
+    width: 25%;
+    margin-right: 0px;
+    margin-top: 48px;
+}
+.controls .play {
+    background: transparent url("../images/audiobutton-play-default.png") no-repeat scroll 0 0;
+}
+.controls .pause {
+    background: transparent url("../images/audiobutton-pause-default.png") no-repeat scroll 0 0;
+    display: none;
+}
+.controls .rew {
+    background: transparent url("../images/audiobutton-rr-default.png") no-repeat scroll 0 0;
+}
+.controls .fwd {
+    background: transparent url("../images/audiobutton-ff-default.png") no-repeat scroll 0 0;
+}
+.controls .reset {
+    background: transparent url("../images/audiobutton-reset-default.png") no-repeat scroll 0 0;
+}
+.controls .play:hover {
+    background: transparent url("../images/audiobutton-play-down.png") no-repeat scroll 0 0;
+}
+.controls .pause:hover {
+    background: transparent url("../images/audiobutton-pause-down.png") no-repeat scroll 0 0;
+}
+.controls .rew:hover {
+    background: transparent url("../images/audiobutton-rr-down.png") no-repeat scroll 0 0;
+}
+.controls .fwd:hover {
+    background: transparent url("../images/audiobutton-ff-down.png") no-repeat scroll 0 0;
+}
+.controls .reset:hover {
+    background: transparent url("../images/audiobutton-reset-down.png") no-repeat scroll 0 0;
+}
+.hidden {
+    display: none;
+}
+.controls .visible {
+    display: block;
+}
+.playlist {
+    background-color: #333333;
+    border-radius: 5px 5px 5px 5px;
+    list-style-type: none;
+    margin: -10px 0 0 2px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    position: relative;
+    width: 326px;
+    z-index: 1;
+}
+.playlist li {
+    color: #EEEEEE;
+    cursor: pointer;
+    margin: 0 0 5px 15px;
+}
+.playlist li.active {
+    font-weight: bold;
+}

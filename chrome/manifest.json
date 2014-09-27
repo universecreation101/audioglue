@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Audio Glue",
+  "short_name": "AudioGlue",
+  "description": "An unusually vocal world awaits you on the web...",
+  "homepage_url": "http://www.authenticinallcaps.com",
+
+  "minimum_chrome_version": "31.0",
+  "version": "1.0",
+  "browser_action": {
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+        "episodes.js",
+        "background.js"
+    ]
+  },
+  "permissions": [
+    "storage", 
+    "<all_urls>",
+    "tabs"
+    ]
+}
+
