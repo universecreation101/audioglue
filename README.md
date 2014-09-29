@@ -40,10 +40,12 @@ Credits
 --------
 Concept and interaction design by Christy Dena, [Universe Creation 101](http://www.universecreation101.com).
 
-Chrome Extension implementation by Andrey Ivanov. 
+Chrome Extension implementation by Andrey Ivanov.
 
-Original iPad App by Craig Peebles, Airship Games. 
+Original iPad App by Craig Peebles, [Airship Games](http://craigpeebles.com/).
 
-UI Art by Elroy.
+UI Art by [Elroy](http://www.elroyonline.com/portfolio/).
 
-Generic audio file supplied in this repository 'Groove_Loop' by Trevor Dikes, Soundplay Interactive.
+Generic audio file supplied in this repository 'Groove_Loop' by Trevor Dikes, [Soundplay Interactive](http://soundplayinteractive.com/).
+
+For more information about the Extension and its application, see http://www.AudioGlue.com.
