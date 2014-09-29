@@ -7,20 +7,20 @@ A Chrome Extension for having audio files trigger when preselected sites are vis
 What does it do?
 ---------
 
-This extension allows you to create an web audio adventure. User should visit some manadatory web pages and extension plays audio files associated with websites. The audio guides user how to reach next adventure webpages.
+This extension allows you to create a web audio adventure. The user visits some mandatory web pages and extension plays audio files associated with websites. The audio guides user how to reach next webpages.
 
-Adventure may have few optional websites. User may not visit them before reaching next mandatory node. But user may open these pages later and hear additional part of the story.
+Your web audio adventure may have few optional websites, and conditional webpages they must visit them before reaching the next mandatory node. 
 
 How does it works?
 ---------
 
 Extension uses background page and popup page with progress and controls.
 
-Background page processes webpages navigation, playing audio and storing adventure progress.
+Background page processes webpages navigation, playing audio and storing progress.
 
-Popup page shows avaialble episodes to user, progress in the current episode. User also may pause audio or forward it using this page.
+Popup page shows available episodes to user, progress in the current episode. User also may pause audio or rewind or forward it using this page.
 
-How to create you own adventure?
+How to create you own web audio adventure?
 ---------
 
 Adventure nodes are defined in the [episodes.js](https://github.com/universecreation101/audioglue/blob/master/chrome/episodes.js). All episode's nodes combined into array of objects.
@@ -34,4 +34,12 @@ Every node object contains following fields:
 
 Once all nodes added to episode1 array an extension may be added to Chrome and used to start a new adventure.
 
-An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.html) should be modified accordingly to add additonal buttons to start new episode. `setEpisode` function can be used to start new episode.
+An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.html) should be modified accordingly to add additional buttons to start new episode. `setEpisode` function can be used to start new episode.
+
+Credits
+--------
+Concept and interaction design by Christy Dena, Universe Creation 101. 
+Chrome Extension implementation by Andrey Ivanov. 
+Original iPad App by Craig Peebles, Airship Games. 
+UI Art by Elroy.
+Generic audio file supplied in this repository 'Groove_Loop' by Trevor Dikes, Soundplay Interactive.
