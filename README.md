@@ -9,7 +9,7 @@ What does it do?
 
 This extension allows you to create a web audio adventure. The user visits some mandatory web pages and extension plays audio files associated with websites. The audio guides user how to reach next webpages.
 
-Your web audio adventure may have few optional websites, and conditional webpages they must visit them before reaching the next mandatory node. 
+Your web audio adventure may have few optional websites, and conditional webpages they must visit before reaching the next mandatory node. 
 
 How does it works?
 ---------
@@ -34,7 +34,7 @@ Every node object contains following fields:
 
 Once all nodes added to episode1 array an extension may be added to Chrome and used to start a new adventure.
 
-An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/header.html) should be modified accordingly to add additional buttons to start new episode. `setEpisode` function can be used to start new episode.
+An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.html) should be modified accordingly to add additional buttons to start new episode. `setEpisode` function can be used to start new episode.
 
 Credits
 --------
