@@ -34,12 +34,16 @@ Every node object contains following fields:
 
 Once all nodes added to episode1 array an extension may be added to Chrome and used to start a new adventure.
 
-An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.html) should be modified accordingly to add additional buttons to start new episode. `setEpisode` function can be used to start new episode.
+An extension may have more than 1 episode. [header.js](https://github.com/universecreation101/audioglue/blob/master/chrome/js/header.js) and [header.html](https://github.com/universecreation101/audioglue/blob/master/chrome/header.html) should be modified accordingly to add additional buttons to start new episode. `setEpisode` function can be used to start new episode.
 
 Credits
 --------
-Concept and interaction design by Christy Dena, Universe Creation 101. 
+Concept and interaction design by Christy Dena, [Universe Creation 101](http://www.universecreation101.com).
+
 Chrome Extension implementation by Andrey Ivanov. 
+
 Original iPad App by Craig Peebles, Airship Games. 
+
 UI Art by Elroy.
+
 Generic audio file supplied in this repository 'Groove_Loop' by Trevor Dikes, Soundplay Interactive.
